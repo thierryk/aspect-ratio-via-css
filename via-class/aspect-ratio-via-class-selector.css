@@ -1,0 +1,24 @@
+/**
+ * MIT License
+ * Copyright (c) 2017 Thierry Koblentz
+ */
+
+.AspectRatio > :first-child {
+  width: 100%;
+}
+@supports (--custom:property) {
+  .AspectRatio {
+    position: relative;
+  }
+  .AspectRatio::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / calc(var(--aspect-ratio)));
+  }
+  .AspectRatio > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
