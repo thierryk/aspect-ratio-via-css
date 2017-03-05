@@ -6,6 +6,9 @@
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
 }
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
 @supports (--custom:property) {
   [style*="--aspect-ratio"] {
     position: relative;
