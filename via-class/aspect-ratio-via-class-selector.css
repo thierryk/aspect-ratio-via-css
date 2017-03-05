@@ -6,6 +6,9 @@
 .AspectRatio > :first-child {
   width: 100%;
 }
+.AspectRatio > img {
+  height: auto;
+}
 @supports (--custom:property) {
   .AspectRatio {
     position: relative;
