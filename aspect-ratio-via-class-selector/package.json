@@ -1,0 +1,18 @@
+{
+  "name": "aspect-ratio-via-class-selector",
+  "version": “1.0.0”,
+  "description": "A module for applying a desired aspect ratio to html elements via CSS",
+  "style": "aspect-ratio-via-class-selector.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierryk/aspect-ratio-via-css.git"
+  },
+  "keywords": [
+    "css", 
+    “padding hack”,
+    ”aspect ratio”
+  ],
+  "author": “thierryk”,
+  "license": "MIT",
+  "homepage": "https://github.com/thierryk/aspect-ratio-via-css/blob/master/aspect-ratio-via-class-selector/README.md"
+}
