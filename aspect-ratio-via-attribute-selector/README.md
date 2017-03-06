@@ -4,7 +4,7 @@ A module for applying a desired aspect ratio to html elements via CSS.
 
 This pure CSS solution&mdash;based on the “[padding hack](https://alistapart.com/article/creating-intrinsic-ratios-for-video)”&mdash;is meant to style a box with a specific aspect ratio regardless of its content.
 
-This is particularely useful to **prevent page reflow**, when media push content further down the page as they load (read “[Preventing Reflow](http://cssmojo.com/aspect-ratio-using-custom-properties-and-calc/)”).
+This is particularly useful to **prevent page reflow**, when media push content further down the page as they load (read “[Preventing Reflow](http://cssmojo.com/aspect-ratio-using-custom-properties-and-calc/)”).
 
 ## Features
    
