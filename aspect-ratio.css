@@ -7,6 +7,10 @@
 [style*="--aspect-ratio"] > :first-child {
   width: 100%;
 }
+.AspectRatio > img,
+[style*="--aspect-ratio"] > img {
+  height: auto;
+}
 @supports (--custom:property) {
   .AspectRatio,
   [style*="--aspect-ratio"] {
